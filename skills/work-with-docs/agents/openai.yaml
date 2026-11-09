@@ -1,0 +1,6 @@
+interface:
+  display_name: "wwd · work with docs"
+  short_description: "按层级组织长期有效的文书，按需保存工作材料，经用户授权维护待讨论与待办，支持阶段归档"
+  default_prompt: "使用 $work-with-docs，在指定范围内讨论或修订文档，将值得长期保存的确认结果写清，按需保存工作材料；本轮能完成的事项直接处理，待讨论与待办经我授权后再写入，需要时由我开启 grill、gloss 或阶段归档。"
+policy:
+  allow_implicit_invocation: true
